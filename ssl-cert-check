@@ -281,7 +281,7 @@ PROGRAMVERSION=4.14
 # Cleanup temp files if they exist
 trap cleanup EXIT INT TERM QUIT
 
-PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/ssl/bin:/usr/sfw/bin
+PATH=/run/current-system/sw/bin:/run/current-system/sw/sbin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/ssl/bin:/usr/sfw/bin
 export PATH
 
 # Who to page when an expired certificate is detected (cmdline: -e)
